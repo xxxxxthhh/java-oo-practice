@@ -34,4 +34,8 @@ public abstract class HotSearch {
     public void setVoteNum(int voteNum) {
         this.voteNum = voteNum;
     }
+
+    public boolean isBought() {
+        return isBought;
+    }
 }

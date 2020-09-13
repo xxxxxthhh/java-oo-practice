@@ -19,7 +19,7 @@ public class Admin extends Role{
         Admin admin = new Admin(adminName);
         System.out.print("欢迎你，管理员：");
         System.out.println(admin.getUsername());
-        FuncView.adminFunction(admin);
+        FuncView.adminFunc(admin);
     }
 
 }
